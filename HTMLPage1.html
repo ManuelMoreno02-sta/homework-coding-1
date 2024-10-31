@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chromakopia</title>
+    <style>
+        /* Dark green background for the whole page and white text */
+        body {
+            background-color: #01823E;
+            color: black;
+            font-family: 'Poleno Semi Bold', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        /* Main container styling with border */
+        .main-container {
+            border: 3px solid #2E8B57; /* Medium green border */
+            border-radius: 15px; /* Rounded corners */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            max-width: 1200px;
+            margin: auto;
+            background-color: #f0f0f0; /* Light background to contrast the dark green */
+        }
+
+        /* Centered header */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Center specific text in span */
+        .center-text {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        /* Container for images and song titles */
+        .content-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* Image styling with border */
+        .image {
+            width: 20%;
+            max-width: 150px;
+            height: auto;
+            border: 2px solid #555; /* Subtle dark border */
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button-style link */
+        .song-link {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 2px solid #2E8B57;
+            transition: background-color 0.3s ease, border-color 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+            /* Hover effect */
+            .song-link:hover {
+                background-color: #45a049;
+                border-color: #3A8D68;
+            }
+
+        /* Song list styling */
+        .song-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <h1><span class="center-text">Chromakopia</span></h1>
+        <p><span class="center-text">This website is designed to give a summary of Chromakopia, an album released in 2024 by Tyler, The Creator.</span></p>
+        <p><span class="center-text">Chromakopia is Tyler The Creator's 8th album and his most personal to date, dealing with themes of growing up, family trauma, and parental issues, among others.</span></p>
+
+        <p class="center-text">
+            <a href="https://en.wikipedia.org/wiki/Chromakopia" target="_blank" style="color: black; text-decoration: underline;">
+                Learn more about Chromakopia on Wikipedia
+            </a>
+        </p>
+
+        p class="center-text">
+        <a href="C:\Users\manny\OneDrive\HTML\chromakopia container.jpg" download="chromakopia_container.jpg" style="color: black; text-decoration: underline;">
+            Download Chromakopia Container Image
+        </a>
+        </p>
+
+        <!-- Flex container for images and song list -->
+        <div class="content-container">
+            <img src="chromakopia vinly.jpg" alt="Chromakopia Vinyl" class="image">
+
+            <div class="song-list">
+                <a href="https://genius.com/Tyler-the-creator-st-chroma-lyrics" target="_blank" class="song-link">St. Chroma (feat. Daniel Caesar)</a>
+                <a href="https://genius.com/Tyler-the-creator-rah-tah-tah-lyrics" target="_blank" class="song-link">Rah Tah Tah</a>
+                <a href="https://genius.com/Tyler-the-creator-noid-lyrics" target="_blank" class="song-link">Noid</a>
+                <a href="https://genius.com/Tyler-the-creator-darling-i-lyrics" target="_blank" class="song-link">Darling, I (feat. Teezo Touchdown)</a>
+                <a href="https://genius.com/Tyler-the-creator-hey-jane-lyrics" target="_blank" class="song-link">Hey Jane</a>
+                <a href="https://genius.com/Tyler-the-creator-i-killed-you-lyrics" target="_blank" class="song-link">I Killed You</a>
+                <a href="https://genius.com/Tyler-the-creator-judge-judy-lyrics" target="_blank" class="song-link">Judge Judy</a>
+                <a href="https://genius.com/Tyler-the-creator-sticky-lyrics" target="_blank" class="song-link">Sticky (feat. GloRilla, Sexyy Red & Lil Wayne)</a>
+                <a href="https://genius.com/Tyler-the-creator-take-your-mask-off-lyrics" target="_blank" class="song-link">Take Your Mask Off (feat. Daniel Caesar & Latoiya Willaims)</a>
+                <a href="https://genius.com/Tyler-the-creator-tomorrow-lyrics" target="_blank" class="song-link">Tomorrow</a>
+                <a href="https://genius.com/Tyler-the-creator-thought-i-was-dead-lyrics" target="_blank" class="song-link">Thought I Was Dead (feat. scHoolboy Q & Santigold)</a>
+                <a href="https://genius.com/Tyler-the-creator-like-him-lyrics" target="_blank" class="song-link">Like Him (feat. Lola Young)</a>
+                <a href="https://genius.com/Tyler-the-creator-balloon-lyrics" target="_blank" class="song-link">Balloon (feat. Doechii)</a>
+                <a href="https://genius.com/Tyler-the-creator-i-hope-you-find-your-way-home-lyrics" target="_blank" class="song-link">I Hope You Find Your Way Home</a>
+            </div>
+
+            <img src="Tyler-The-Creator-Chromakopia-1730131070.jpeg" alt="Tyler The Creator Chromakopia" class="image">
+        </div>
+    </div>
+
+</body>
+
+</html>
